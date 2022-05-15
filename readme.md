@@ -15,3 +15,5 @@ agregre descripciones a todos los productos
 le puse un alto de 600px a la table de talleres
 agregue link vivencias a todas las paginas
 agregre m de 5 a cada de div de vivencia
+agregue link para sumar iconos en todas las paginas
+agregue iconos en el footer

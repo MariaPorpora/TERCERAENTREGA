@@ -71,11 +71,12 @@ a {
   grid-column: 1/4;
   grid-row: 4/5;
   background-color: #011C26;
+  height: 200px;
 }
 
 .pie .TextoPie {
   text-align-last: center;
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
   color: white;
   font-size: 20px;
