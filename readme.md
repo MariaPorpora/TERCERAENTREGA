@@ -13,3 +13,4 @@ agregue mas productos
 agregue class a los p de productos
 agregre descripciones a todos los productos 
 le puse un alto de 600px a la table de talleres
+agregue link vivencias a todas las paginas
