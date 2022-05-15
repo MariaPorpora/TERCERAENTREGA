@@ -1,0 +1,27 @@
+{
+  "name": "terceraentrega",
+  "version": "1.0.0",
+  "description": "agregue una pag nuevo para aplicar el ejercicio q se llama vivencias\r agregue sass para vivencias \r agregue una variable para vivencias con varios atributos para hacer mat-get\r agregue un mixin con atributos para titulos\r aplique mixin en los titulos de vivencias\r extendi las propiedades de las tarjetas de vivencias a los demas divs\r agregue la descripcion de cada vivencia\r hice otra variable para usar mat get pero con los botones\r agregue descripcion en todas las paginas\r Agregue varias veces mi palabra clave Centro Holistico\r Complete todas las alt de las imgs\r agregue mas productos\r agregue class a los p de productos\r agregre descripciones a todos los productos \r le puse un alto de 600px a la table de talleres\r agregue link vivencias a todas las paginas\r agregre m de 5 a cada de div de vivencia\r agregue link para sumar iconos en todas las paginas\r agregue iconos en el footer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/style.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaPorpora/TERCERAENTREGA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaPorpora/TERCERAENTREGA/issues"
+  },
+  "homepage": "https://github.com/MariaPorpora/TERCERAENTREGA#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
