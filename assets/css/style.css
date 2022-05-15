@@ -190,6 +190,10 @@ a {
   }
 }
 
+.tablaclases {
+  height: 600px;
+}
+
 tr th {
   color: #F7C3B9;
   font-size: 20px;
