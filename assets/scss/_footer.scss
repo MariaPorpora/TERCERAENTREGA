@@ -6,14 +6,33 @@
         text-align-last: center;
         margin: 10px;
         padding: 10px;
-        font-size: 10px;
-        color:white;
+        color:rgb(255, 255, 255);
+        font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
+       
     }
     h2{
         font-family: "Moon";
   }
   
-  
+}
 
+.fa-facebook-square{
+    font-size: 24px;
+    margin: 3px;
+}
+
+.fa-instagram-square{
+    @extend .fa-facebook-square
+}
+
+.fa-whatsapp-square{
+    @extend .fa-facebook-square
+}
+
+.fa-location-dot{
+   font-size: 20px;
+   margin: 3px;
+   text-align: center;
+ 
 }

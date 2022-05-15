@@ -77,13 +77,24 @@ a {
   text-align-last: center;
   margin: 10px;
   padding: 10px;
-  font-size: 10px;
   color: white;
+  font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .pie h2 {
   font-family: "Moon";
+}
+
+.fa-facebook-square, .fa-instagram-square, .fa-whatsapp-square {
+  font-size: 24px;
+  margin: 3px;
+}
+
+.fa-location-dot {
+  font-size: 20px;
+  margin: 3px;
+  text-align: center;
 }
 
 .TituloContactos {
