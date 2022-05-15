@@ -135,7 +135,7 @@ a {
 
 .producto2 {
   width: 200px;
-  height: 330px;
+  height: 350px;
   background-color: #F7C3B9;
   border-radius: 10px;
   padding: 20px;
@@ -156,6 +156,7 @@ a {
 
 .producto2 .descripcion {
   font-size: 12px;
+  text-align: center;
 }
 
 .producto2 button {
