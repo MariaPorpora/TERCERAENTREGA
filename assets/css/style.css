@@ -154,6 +154,10 @@ a {
   height: 200px;
 }
 
+.producto2 .descripcion {
+  font-size: 12px;
+}
+
 .producto2 button {
   box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
   width: 90px;
