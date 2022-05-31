@@ -1,14 +1,17 @@
 .logo1 {
   width: 200px;
-  height: 250px; }
+  height: 250px;
+}
 
 a {
   font-family: moon;
-  font-style: none; }
+  font-style: none;
+}
 
 @font-face {
   font-family: Moon;
-  src: url("../fonts/BerkshireSwash-Regular.ttf"); }
+  src: url("../fonts/BerkshireSwash-Regular.ttf");
+}
 
 .texto {
   display: flex;
@@ -16,71 +19,92 @@ a {
   justify-content: center;
   justify-items: center;
   margin: 5px;
-  padding: 5px; }
+  padding: 5px;
+}
 
 .texto1 {
   font-size: 10px;
   margin: 5px;
-  font-family: 'Times New Roman', Times, serif; }
-  .texto1 h5 {
-    display: flex;
-    justify-content: center;
-    font-family: "moon";
-    font-size: 24px; }
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.texto1 h5 {
+  display: flex;
+  justify-content: center;
+  font-family: "moon";
+  font-size: 24px;
+}
 
 .publicidad {
   background-color: #F7C3B9;
   display: flex;
-  justify-content: center; }
-  .publicidad .producto {
-    width: 200px;
-    height: 330px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    border-style: none; }
-  .publicidad .producto__titulo {
-    text-align-last: center;
-    font-size: 15px;
-    font-family: moon; }
-  .publicidad button {
-    box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
-    width: 90px; }
-  .publicidad button:hover {
-    box-shadow: 7px 4px 14px 6px white;
-    width: 90px; }
+  justify-content: center;
+}
+
+.publicidad .producto {
+  width: 200px;
+  height: 330px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  border-style: none;
+}
+
+.publicidad .producto__titulo {
+  text-align-last: center;
+  font-size: 15px;
+  font-family: moon;
+}
+
+.publicidad button {
+  box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
+  width: 90px;
+}
+
+.publicidad button:hover {
+  box-shadow: 7px 4px 14px 6px white;
+  width: 90px;
+}
 
 .pie {
   grid-column: 1/4;
   grid-row: 4/5;
   background-color: #011C26;
-  height: 200px; }
-  .pie .TextoPie {
-    text-align-last: center;
-    margin: 5px;
-    padding: 10px;
-    color: white;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif; }
-  .pie h2 {
-    font-family: "Moon"; }
+  height: 200px;
+}
+
+.pie .TextoPie {
+  text-align-last: center;
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pie h2 {
+  font-family: "Moon";
+}
 
 .fa-facebook-square, .fa-instagram-square, .fa-whatsapp-square {
   font-size: 24px;
-  margin: 3px; }
+  margin: 3px;
+}
 
 .fa-location-dot {
   font-size: 20px;
   margin: 3px;
-  text-align: center; }
+  text-align: center;
+}
 
 .TituloContactos {
   color: #011C26;
   font-family: moon;
   margin: 50px;
   font-size: 30px;
-  text-align: center; }
+  text-align: center;
+}
 
 .Formulario {
   text-align: center;
@@ -88,28 +112,38 @@ a {
   justify-content: center;
   width: 700px;
   margin: 20px;
-  border-radius: 20px; }
-  .Formulario img {
-    width: 200px;
-    transition: all 3s;
-    display: flex;
-    align-self: center;
-    animation-name: movi;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-delay: 1s; }
+  border-radius: 20px;
+}
+
+.Formulario img {
+  width: 200px;
+  transition: all 3s;
+  display: flex;
+  align-self: center;
+  animation-name: movi;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
 
 @keyframes movi {
   0% {
-    transform: traslate 0px, 0px; }
+    transform: traslate 0px, 0px;
+  }
   25% {
-    transform: translate(50px, 0px); } }
-  .Formulario button {
-    box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
-    width: 90px; }
-  .Formulario button:hover {
-    box-shadow: 7px 4px 14px 6px white;
-    width: 90px; }
+    transform: translate(50px, 0px);
+  }
+}
+
+.Formulario button {
+  box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
+  width: 90px;
+}
+
+.Formulario button:hover {
+  box-shadow: 7px 4px 14px 6px white;
+  width: 90px;
+}
 
 .producto2 {
   width: 200px;
@@ -118,23 +152,34 @@ a {
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  border-style: none; }
-  .producto2 .producto__titulo {
-    text-align-last: center;
-    font-family: moon;
-    font-size: 20px; }
-  .producto2 .producto__img {
-    width: 200px;
-    height: 200px; }
-  .producto2 .descripcion {
-    font-size: 12px;
-    text-align: center; }
-  .producto2 button {
-    box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
-    width: 90px; }
-  .producto2 button:hover {
-    box-shadow: 7px 4px 14px 6px white;
-    width: 90px; }
+  border-style: none;
+}
+
+.producto2 .producto__titulo {
+  text-align-last: center;
+  font-family: moon;
+  font-size: 20px;
+}
+
+.producto2 .producto__img {
+  width: 200px;
+  height: 200px;
+}
+
+.producto2 .descripcion {
+  font-size: 12px;
+  text-align: center;
+}
+
+.producto2 button {
+  box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
+  width: 90px;
+}
+
+.producto2 button:hover {
+  box-shadow: 7px 4px 14px 6px white;
+  width: 90px;
+}
 
 .talleres {
   text-align: center;
@@ -143,23 +188,29 @@ a {
   font-size: 50px;
   font-family: moon;
   animation-duration: 2s;
-  animation-name: slidein; }
+  animation-name: slidein;
+}
 
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%; }
+    width: 300%;
+  }
   to {
     margin-left: 0%;
-    width: 100%; } }
+    width: 100%;
+  }
+}
 
 .tablaclases {
-  height: 600px; }
+  height: 600px;
+}
 
 tr th {
   color: #F7C3B9;
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: 'Times New Roman', Times, serif;
+}
 
 .banner {
   width: 100%;
@@ -167,40 +218,51 @@ tr th {
   height: 650px;
   background-position: center;
   display: flex;
-  justify-content: center; }
-  .banner h1 {
-    width: 100%;
-    text-align: center;
-    height: 100%;
-    background-color: rgba(128, 128, 128, 0.393);
-    line-height: 650PX;
-    letter-spacing: 5px;
-    font-size: 100px;
-    font-family: moon; }
+  justify-content: center;
+}
+
+.banner h1 {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.393);
+  line-height: 650PX;
+  letter-spacing: 5px;
+  font-size: 100px;
+  font-family: moon;
+}
 
 .ImgTerapias img {
-  transition: all 3s; }
+  transition: all 3s;
+}
 
 .ImgTerapias img:hover {
-  transform: rotatey(380deg); }
+  transform: rotatey(380deg);
+}
 
 .Vivencias, .vivencia {
   display: flex;
   font-size: 15px;
   background-color: #F7C3B9;
-  margin: 5px; }
+  margin: 5px;
+}
 
 .VivenciaTitulo {
   text-align-last: center;
   font-family: moon;
   font-size: 20px;
-  margin: 5px; }
+  margin: 5px;
+}
 
 .btn {
   box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
   width: 90px;
-  font-family: moon; }
+  font-family: moon;
+}
 
 .btn:hover {
   box-shadow: 7px 4px 14px 6px white;
-  width: 90px; }
+  width: 90px;
+}
+/*# sourceMappingURL=style.css.map */
+
